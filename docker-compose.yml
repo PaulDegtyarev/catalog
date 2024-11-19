@@ -7,7 +7,7 @@ services:
     ports:
       - "5433:5432"
     environment:
-      POSTGRES_DB: catalog_db
+      POSTGRES_DB: catalog
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: admin
 
